@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9094622ea99641a295559d00ac6287e8" Name="Diagram1">
+        <EntityTypeShape EntityType="AssetMSMVCDBModel.Asset_master" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssetMSMVCDBModel.assetDef" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssetMSMVCDBModel.assetType" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssetMSMVCDBModel.logintbl" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssetMSMVCDBModel.PurchaseTbl" Width="1.5" PointX="8.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssetMSMVCDBModel.userReg" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssetMSMVCDBModel.vendorTbl" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="AssetMSMVCDBModel.FK__Asset_mas__am_ad__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="AssetMSMVCDBModel.FK__Asset_mas__am_at__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="AssetMSMVCDBModel.FK__Asset_mas__am_ma__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="AssetMSMVCDBModel.FK__assetDef__ad_typ__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="AssetMSMVCDBModel.FK__PurchaseT__pd_ad__1CF15040" ManuallyRouted="false" />
+        <AssociationConnector Association="AssetMSMVCDBModel.FK__PurchaseT__pd_at__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="AssetMSMVCDBModel.FK__vendorTbl__vd_at__1A14E395" ManuallyRouted="false" />
+        <AssociationConnector Association="AssetMSMVCDBModel.FK__userReg__l_id__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="AssetMSMVCDBModel.FK__PurchaseT__pd_ve__1ED998B2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
